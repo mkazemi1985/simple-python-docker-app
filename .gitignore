@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Docker
+*.log
+*.pid
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Python environment files
+*.egg-info/
+
