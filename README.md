@@ -16,17 +16,17 @@ Great for learning the basics of web development and containerization.
 
 ## 🚀 Getting Started
 
-### 1- Clone the Repository
+## 1- Clone the Repository
 
 ```bash
 git clone https://github.com/mkazemi1985/simple-python-docker-app.git
 cd simple-python-docker-app
 
-### 2- Build the Docker Image
+## 2- Build the Docker Image
 
 docker build -t simple-python-app .
 
-### 3-  Run the Docker Container
+## 3-  Run the Docker Container
 
 docker run -p 5000:5000 simple-python-app
 
@@ -37,7 +37,7 @@ You should see:
 
 {"message": "Hello from a simple Python Flask app! 🚀"}
 
-### 🧱 Project Structure
+## 🧱 Project Structure
 
 simple-python-docker-app/
 ├── app.py            # Main Flask app
@@ -45,7 +45,7 @@ simple-python-docker-app/
 ├── Dockerfile        # Docker build instructions
 └── README.md         # This file
 
-### 📦 Tech Stack
+## 📦 Tech Stack
 
 🐍 Python 3.10
 
